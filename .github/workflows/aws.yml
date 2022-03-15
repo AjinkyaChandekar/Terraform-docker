@@ -34,7 +34,7 @@ on:
 
 env:
   AWS_REGION: us-east-1                  # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: terraform_ecr_repo           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: terraform_ecr_repo01           # set this to your Amazon ECR repository name
   ECS_SERVICE: Terraform_ECS_SERVICE                 # set this to your Amazon ECS service name
   ECS_CLUSTER: Terraform_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: Terraform_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
