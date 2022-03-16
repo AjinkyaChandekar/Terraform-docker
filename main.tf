@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
 }
-
+/*
 resource "aws_instance" "ec2" {
   ami             = "ami-0e472ba40eb589f49"
   key_name        = var.key_name
@@ -16,7 +16,7 @@ resource "aws_instance" "ec2" {
 output "ec2_public_ip" {
 	value = aws_instance.ec2.public_ip
 }
-
+*/
 /*
 resource "aws_iam_user" "user-00714" {
 	name = "ajinkya"
