@@ -17,7 +17,7 @@ output "ec2_public_ip" {
 	value = aws_instance.ec2.public_ip
 	sensitive =  true
 }
-
+/*
 resource "aws_iam_user" "user-00714" {
 	name = "ajinkya"
 	path = "/"
@@ -25,3 +25,4 @@ resource "aws_iam_user" "user-00714" {
     tag-key = "ajinkya-00714"
   }
 }
+*/
