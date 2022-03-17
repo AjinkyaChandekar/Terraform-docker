@@ -13,7 +13,6 @@ terraform {
 }
 /*
 
-  
 # Using a single workspace from Terraform Cloud:
 terraform {
   backend "remote" {
