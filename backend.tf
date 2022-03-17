@@ -5,10 +5,10 @@ terraform {
     key    = "docker.terraform.tfstate"
     region = "us-east-1"
     #dynamodb_table = "s3_remote_state"
-    #access_key = "AKIA3OTBACMSQGJ5G64F"
-    #secret_key = "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"
-    access_key = ${{ secrets.access_key }}
-    secret_key = ${{ secrets.secret_key }}
+    access_key = "AKIA3OTBACMSQGJ5G64F"
+    secret_key = "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"
+    #access_key = ${{ secrets.access_key }}
+    #secret_key = ${{ secrets.secret_key }}
   }
 }
 /*
