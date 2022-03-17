@@ -1,8 +1,8 @@
-/*
+
 terraform {
   backend "s3" {
-    bucket = "app01-prod01"
-    key    = "app01-prod01.terraform.tfstate"
+    bucket = "terraformclouds3"
+    key    = "docker.terraform.tfstate"
     region = "us-east-1"
     #dynamodb_table = "s3_remote_state"
     #access_key = "AKIA3OTBACMSQGJ5G64F"
@@ -11,7 +11,8 @@ terraform {
     secret_key = ${{ secrets.secret_key }}
   }
 }
-*/
+/*
+
 # Using a single workspace from Terraform Cloud:
 terraform {
   backend "remote" {
@@ -23,5 +24,5 @@ terraform {
     }
   }
 }
-
+*/
    
