@@ -8,12 +8,12 @@ variable "instance_type" {
   default     = "t2.micro"
 
 }
-
+/*
 variable "security_group" {
   description = "Name of security group"
   default     = "terraform"
 }
-
+*/
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
